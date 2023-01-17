@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ButcePlanlamam.exe" version="1.0.0.0" publicKeyToken="0100faaa897b38f0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ButcePlanlamam" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ButcePlanlamam.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ButcePlanlamam.exe" size="516512">
+      <assemblyIdentity name="ButcePlanlamam" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>le06Jcd77k5ru7IJdEUaPX5K4DuCJnoBA5NNpEhrgws=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ButcePlanlamam.exe.config" size="523">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>78hX5bM21bam/HDHQxNYo2eCkrqYBoH8wTjlPEcl8gI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZEYT\karab" issuerKeyHash="83f5d57de8ec365c0ad9c4a0b4e3f5bbaaf6523c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gqq+reLZlt2JzKA/ZSm53Cqdboa8HSiITZVlh+t89Bc=</DigestValue></Reference></SignedInfo><SignatureValue>nCqb1DUMyA6sHLag7398Am1sO6FSk+6YeCCVlyfbYNdWsSF3IUskUa0PtwF+2CDdITNnIiFIP1EOFRD/VDr2mw6+dVp0LldlGL5ZEdJAgad+Bx+ppqwYGYXixeX1maTYZsHiRxs4LwCUacUDYSFMWocKmErxE+j6zCUdcZiEVuM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3Bg3a3RJY6co5YKNHgTBZYjpHy/i6jbDG7b3heC2skzVPKvhDKPlN3CNTYKgB8wpfHbXxux8JplwqFlQ8So+LJoVrZlPJKhXdkhdmFD0J7MtQBVs8ZXT7n7pc79in8TDyHcfqzuWnEYoQi3IlqqfjM4lOgssepfNvDkRIKwDO9E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="17f47ceb8765954d88281dbc866e9d2adcb929653fa0cc89dd96d9e2adbeaa82" Description="" Url=""><as:assemblyIdentity name="ButcePlanlamam.exe" version="1.0.0.0" publicKeyToken="0100faaa897b38f0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZEYT\karab</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8DkgMxJt/Ck+ddN7bhoNNwqozIiPTL/yU6/pTgaqAvw=</DigestValue></Reference></SignedInfo><SignatureValue>gj/MSINtibBmLMn83IQBsINsJDdSv4CPjh45ndteVveNErmx+qmuIRzc7kG77J6TY0NRVlbktabIpGWLlOXT2N0xy9+jKFerO6FLUCy/x4ukAGZlXbx9NzvmybCMxwlyjMmLf+blCrxh3jWNMwVX7dYwlBrAPjU+98/DBGH7hg4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3Bg3a3RJY6co5YKNHgTBZYjpHy/i6jbDG7b3heC2skzVPKvhDKPlN3CNTYKgB8wpfHbXxux8JplwqFlQ8So+LJoVrZlPJKhXdkhdmFD0J7MtQBVs8ZXT7n7pc79in8TDyHcfqzuWnEYoQi3IlqqfjM4lOgssepfNvDkRIKwDO9E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQMVin7gpPOLpHu/qjYcQ39zANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAWgBFAFkAVABcAGsAYQByAGEAYjAeFw0yMjA1MDgxOTIwNTVaFw0yMzA1MDkwMTIwNTVaMB8xHTAbBgNVBAMeFABaAEUAWQBUAFwAawBhAHIAYQBiMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcGDdrdEljpyjlgo0eBMFliOkfL+LqNsMbtveF4LayTNU8q+EMo+U3cI1NgqAHzCl8dtfG7HwmmXCoWVDxKj4smhWtmU8kqFd2SF2YUPQnsy1AFWzxldPufulzv2KfxMPIdx+rO5acRihCLciWqp+MziU6Cyx6l828OREgrAM70QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAG+qjofpRuQrZfVjWwNOCTQ60X2AvupESiLZVPfmDV8mm2CmQ1d/Nkncs8yJvuPMltQzHG67izuOVSklzUXD7a4+iRtfZkR/5r67kjzlRvdAQom4w6VU7IBSt7YshiYt4Sr+2Zdc/lRBt8C1x4wBXT6PaK+Hwu1zh21/P9r1pRVc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
