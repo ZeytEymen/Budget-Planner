@@ -1,2 +1,2 @@
-# Butce-Planla
-Üniversite dönemimde yaptığım bir Bütçe Planlama Otomasyonu
+# Budget Planner
+A "Budget Planning" Automation, I made during my university years.
